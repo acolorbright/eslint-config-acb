@@ -16,6 +16,5 @@ The plugin requires `eslint` plus the following packages:
 If you don't need React, see [eslint-config-acb-base](https://github.com/acolorbright/eslint-config-acb-base).
 
 ```shell
-$ npm install --save acolorbright/eslint-config-acb#v1.0
-$ npm install --save-dev eslint-plugin-compat@2.2.0 eslint-plugin-extra-rules@0.8.1 eslint-plugin-import@2.9.0 eslint-plugin-jsx-a11y@6.0.3 eslint-plugin-jsx-control-statements@2.2.0 eslint-plugin-react@7.7.0
+$ npm install --save-dev acolorbright/eslint-config-acb#v1.0 eslint-plugin-compat@2.2.0 eslint-plugin-extra-rules@0.8.1 eslint-plugin-import@2.9.0 eslint-plugin-jsx-a11y@6.0.3 eslint-plugin-jsx-control-statements@2.2.0 eslint-plugin-react@7.7.0
 ```
