@@ -18,3 +18,5 @@ If you don't need React, see [eslint-config-acb-base](https://github.com/acolorb
 ```shell
 $ npm install --save-dev acolorbright/eslint-config-acb#v1.0 eslint-plugin-compat@2.2.0 eslint-plugin-extra-rules@0.8.1 eslint-plugin-import@2.9.0 eslint-plugin-jsx-a11y@6.0.3 eslint-plugin-jsx-control-statements@2.2.0 eslint-plugin-react@7.7.0
 ```
+
+Then add `"extends": "acb"` to your `.eslintrc` file.
