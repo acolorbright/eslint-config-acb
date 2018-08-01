@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-acb",
-  "version": "2.0.1",
+  "version": "2.0.0",
   "description": "ACB's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/acolorbright/eslint-config-acb/issues"
   },
   "dependencies": {
-    "eslint-config-acb-base": "github:acolorbright/eslint-config-acb-base#v2.0",
+    "eslint-config-acb-base": "github:acolorbright/eslint-config-acb-base#v2.0.0",
     "eslint-config-airbnb": "17.0.0"
   },
   "devDependencies": {
