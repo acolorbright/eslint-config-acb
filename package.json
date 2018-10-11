@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-acb",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "ACB's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -22,12 +22,12 @@
     "url": "https://github.com/acolorbright/eslint-config-acb/issues"
   },
   "dependencies": {
-    "eslint-config-acb-base": "github:acolorbright/eslint-config-acb-base#v2.0.2",
+    "eslint-config-acb-base": "github:acolorbright/eslint-config-acb-base#v2.0.3",
     "eslint-config-airbnb": "17.0.0"
   },
   "devDependencies": {
     "babel-preset-acb": "github:acolorbright/babel-preset-acb.git#v1.0.3",
-    "eslint": "5.1.0",
+    "eslint": "5.6.1",
     "eslint-config-airbnb-base": "13.0.0",
     "eslint-plugin-compat": "2.6.2",
     "eslint-plugin-extra-rules": "0.8.1",
@@ -38,7 +38,7 @@
     "react": "16.3.2"
   },
   "peerDependencies": {
-    "eslint": "5.1.0",
+    "eslint": "5.6.1",
     "eslint-plugin-compat": "2.6.2",
     "eslint-plugin-extra-rules": "0.8.1",
     "eslint-plugin-import": "2.13.0",
