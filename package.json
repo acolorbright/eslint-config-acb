@@ -22,7 +22,7 @@
     "url": "https://github.com/acolorbright/eslint-config-acb/issues"
   },
   "dependencies": {
-    "eslint-config-acb-base": "github:acolorbright/eslint-config-acb-base#v2.0.3",
+    "eslint-config-acb-base": "github:acolorbright/eslint-config-acb-base#v2.0.5",
     "eslint-config-airbnb": "17.1.0"
   },
   "devDependencies": {
