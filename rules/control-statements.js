@@ -11,5 +11,9 @@ module.exports = {
     'plugin:jsx-control-statements/recommended',
   ],
 
-  rules: {},
+  rules: {
+    // jsx-jcs-no-undef replaces no-undef and requires it to be turned off.
+    // See: https://github.com/vkbansal/eslint-plugin-jsx-control-statements/blob/master/docs/rules/jsx-jcs-no-undef.md
+    'no-undef': 0,
+  },
 };

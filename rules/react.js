@@ -19,6 +19,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
       },
     ],
+    // See https://github.com/vkbansal/eslint-plugin-jsx-control-statements#important
     'react/jsx-no-undef': ['error', { allowGlobals: true }],
     'react/jsx-one-expression-per-line': 0,
     'react/jsx-sort-props': 'error',
