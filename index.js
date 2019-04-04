@@ -5,6 +5,7 @@ module.exports = {
     './rules/control-statements',
     './rules/react',
     './rules/react-a11y',
+    './rules/react-hooks',
     './rules/style',
   ].map(require.resolve),
   parserOptions: {
