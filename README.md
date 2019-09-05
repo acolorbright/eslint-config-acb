@@ -16,7 +16,7 @@ The plugin requires `eslint` plus the following packages:
 If you don't need React, see [eslint-config-acb-base](https://github.com/acolorbright/eslint-config-acb-base).
 
 ```shell
-$ npm install --save-dev 'acolorbright/eslint-config-acb#v3.0.0' eslint@5.16.0 eslint-plugin-extra-rules@0.8.1 eslint-plugin-import@2.16.0 eslint-plugin-jsx-a11y@6.2.1 eslint-plugin-jsx-control-statements@2.2.1 eslint-plugin-react@7.12.4 eslint-plugin-react-hooks@1.6.0
+$ npm install --save-dev 'acolorbright/eslint-config-acb#v3.1.0' eslint@6.3.0 eslint-plugin-extra-rules@0.8.1 eslint-plugin-import@2.18.2 eslint-plugin-jsx-a11y@6.2.3 eslint-plugin-jsx-control-statements@2.2.1 eslint-plugin-react@7.14.3 eslint-plugin-react-hooks@2.0.1
 ```
 
 Then add `"extends": "acb"` to your `.eslintrc` file.
