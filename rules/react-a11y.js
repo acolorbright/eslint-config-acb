@@ -1,18 +1,21 @@
 module.exports = {
+  plugins: [
+    'jsx-a11y',
+    'react',
+  ],
   parserOptions: {
-    plugins: [
-      'jsx-a11y',
-      'react',
-    ],
-
     ecmaFeatures: {
       jsx: true,
     },
   },
-
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   rules: {
     'jsx-a11y/anchor-is-valid': ['error', {
-      components: [], // Don't assume a <Link /> component is invalid
+      components: ['Link'], // Don't assume a <Link /> component is invalid
     }],
     'jsx-a11y/media-has-caption': 0,
   },
