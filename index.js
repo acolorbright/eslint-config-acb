@@ -1,4 +1,17 @@
 module.exports = {
+  parser: 'babel-eslint',
+  env: {
+    browser: true,
+    commonjs: true,
+    es6: true,
+    es2020: true,
+    jest: true,
+    node: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
+  },
   extends: [
     'eslint-config-airbnb',
     'eslint-config-acb-base',
@@ -8,8 +21,4 @@ module.exports = {
     './rules/react-hooks',
     './rules/style',
   ].map(require.resolve),
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-  },
 };
